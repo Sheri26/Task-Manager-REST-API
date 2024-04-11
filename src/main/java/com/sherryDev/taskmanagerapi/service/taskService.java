@@ -42,4 +42,18 @@ public class taskService {
 			return tasksList;
 		return tasksList;
 	}
+
+	public long getTotalSavedEntities() {
+		long total = repository.count();
+		return total;
+	}
+
+//	public boolean checkExistenceByTask(Task toBeChecked) {
+//		boolean doExist = repository.exists(toBeChecked);
+//	}
+
+	public boolean checkExistenceById(int id) {
+		boolean doExist = repository.existsById(id);
+		return doExist;
+	}
 }
