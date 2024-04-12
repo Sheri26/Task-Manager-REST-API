@@ -12,3 +12,9 @@ Test-Driven Development methodology(TDD)
 - Java
 - Postman
 - JUnit
+
+##API Documentation:
+
+#The Task-Manager REST API documentation can be viewed here:
+
+- https://documenter.getpostman.com/view/34115782/2sA3BheuiN
